@@ -1,0 +1,55 @@
+.TodoSearch {
+  background: #F9FBFC;
+  border-radius: 2px;
+  border: 2px solid #202329;
+  margin: 0 24px;
+  height: 64px;
+  width: calc(100% - 62px);
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  color: #1E1E1F;
+  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+}
+
+.TodoSearch::placeholder {
+  color: #A5A5A5;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+.TodoSearch:focus {
+  outline-color: #61DAFA;
+}
+
+/* uiverse */
+
+.InputContainer {
+  width: 98%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom,#26A65D,#BF8665);
+  border-radius: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.input {
+  width: 98%;
+  height: 40px;
+  border: none;
+  outline: none;
+  caret-color: rgb(255, 81, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding-left: 15px;
+  letter-spacing: 0.8px;
+  color: rgb(19, 19, 19);
+  font-size: 13.4px;
+}
+
+
